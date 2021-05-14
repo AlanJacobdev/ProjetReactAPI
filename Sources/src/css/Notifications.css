@@ -1,0 +1,29 @@
+#notification {
+    width: 3%;
+    height: 85px;
+    text-align: center;
+    line-height: 85px;
+    white-space: nowrap;
+  }
+  .bulle {
+    font-size: 25px !important;
+    cursor : pointer;
+  }
+  .bulle:hover {
+    font-size: 25px;
+    cursor : pointer;
+    color: rgb(88, 88, 88);
+  
+  }
+  
+  #cercle {
+    width: 15px;
+    height: 15px;
+    border-radius: 23px;
+    background: red;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    transform: translate(-15px,-10px);
+    line-height: 14px;
+  }

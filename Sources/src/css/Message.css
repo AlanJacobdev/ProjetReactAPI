@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#messagesEnvoyes {
+    position: sticky;
+    left: 30%;
+    top: 100px;
+    margin: 30px 0px 30px 0px;
+    width: 40%;
+    min-height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #e8e8e8;
+}
+
+#libelleMessageEnvoye{
+    font-family: "Montserrat", sans-serif;
+    text-align:center;
+    font-size:25px;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+    display: inline-table;
+    width: 45%;
+    border-bottom: 2px solid rgba(218, 218, 218, 0.473);
+}
+
+
+.Actif{
+    background-color: rgba(218, 218, 218, 0.500);
+}
+
+#libelleMessageRecu{
+    font-family: "Montserrat", sans-serif;
+    text-align:center;
+    font-size:25px;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+    display: inline-table;
+    width: 45%;
+    border-bottom: 2px solid rgba(218, 218, 218, 0.473);
+
+}
+
+
+
+#libelleMessageRecu:hover{
+    background-color: rgba(218, 218, 218, 0.200);
+    cursor: pointer;
+}
+
+#libelleMessageEnvoye:hover{
+    background-color: rgba(218, 218, 218, 0.200);
+    cursor: pointer;
+}
+
+.Message{
+    border-bottom: 1px solid rgba(218, 218, 218, 0.308);
+    border-top: 1px solid rgba(218, 218, 218, 0.308);
+    padding: 10px 10px 10px 10px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.TronquedMessage{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 10px 0px 10px 0px;
+}
+
+.Date {
+    margin : 5px 0px 5px 0px;
+}
+
+a:active, a:focus, a:visited, a:hover {
+    color : black;
+}
+
+.messageNonLu{
+    background-color: rgba(248, 2, 2, 0.062);
+}
+
+.messageLu{
+    background-color: rgb(255, 255, 255);
+}
+
+.EnvoieIcon{
+    text-align:center;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 12px 0px 17px 0px;
+    display: inline-table;
+    width: 10%;
+    border-bottom: 2px solid rgba(218, 218, 218, 0.473);
+}
+
+.EnvoieIcon:hover{
+    background-color: rgba(218, 218, 218, 0.200);
+    cursor: pointer;
+}
+
+.DivAnnuler{
+    display: block;
+    margin: auto;
+}
+
+.scrollable{
+    overflow: auto;
+    max-height: 725px;
+}
+
+.cercleMessages {
+    width: 15px;
+    height: 15px;
+    border-radius: 23px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    transform: translate(5px,-25px);
+    line-height: 14px;
+}

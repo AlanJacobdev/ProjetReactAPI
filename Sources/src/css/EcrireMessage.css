@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+#CenterEcrire {
+    position: sticky;
+    left: 30%;
+    top: 100px;
+    margin: 30px 0px 30px 0px;
+    padding:10px 20px 10px 20px;
+    width: 40%;
+    min-height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #e8e8e8;
+    display: flex;
+}
+
+form {
+    width: 100%;
+}
+
+#BoutonEnvoie {
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 38px;
+    line-height: 38px;
+    width: 100px;
+    border-radius: 19px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fbfbfb;
+    font-size:16px;
+}
+#BoutonEnvoie:hover {
+    background-color:#ebebeb;
+}
+
+.EnvoieMessage {
+    margin: 20px 0px 20px 0px;
+    display: flex;
+}
+
+.DestinataireEnvoie{
+    font-family: "Montserrat", sans-serif;
+    text-align:center;
+    font-size:25px;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+
+}
+
+.DestinataireSaisie{
+    height: auto;
+    display: block;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    resize:vertical;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+.MessageDenvoie{
+    font-family: "Montserrat", sans-serif;
+    text-align:center;
+    font-size:25px;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+}
+
+.MessageSaisie{
+    min-height: 100px;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    width: 100%;
+    resize:vertical;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#BoutonAnnule {
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 38px;
+    line-height: 38px;
+    width: 100px;
+    border-radius: 19px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fbfbfb;
+    font-size : 16px;
+}
+
+#the-count{
+    font-family: "Montserrat", sans-serif;
+    margin: 5px 0px 5px 0px;
+    height: 20px;
+    width: 100%;
+    text-align: right;
+    display: block;
+}
+
+
+.icon {
+	height: 24px;
+    width: 24px;
+    position: relative;
+    cursor: pointer;
+    margin: auto;
+    display: inline-table;
+    margin : 0px 10px 0px 10px;
+}
+
+.icon:hover .tooltipinfo {
+		display: block;
+}
+
+.tooltip {
+	padding: 10px;
+	position: absolute;
+	width: auto;
+	white-space: nowrap;
+	word-wrap: no-wrap;
+	box-shadow: 1px 1px 20px #aaa;
+	border-radius: 5px;
+	background-color: #fff;
+	top: 40px;
+	left: 50%;
+	transform: translate(-50%);
+	transform-style: preserve-3d;
+	z-index: 200;
+	font-size: 0.9em;
+	display: none;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: initial;
+}
+
+
+.tooltip:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    transform-origin: 50% 50%;
+    transform: rotate(45deg) translateX(-50%);
+    background-color: #fff;
+    left: 50%;
+    top: -1px;
+    z-index: 400;
+}
+
+.tooltip:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transform-origin: 50% 50%;
+    transform: rotate(45deg) translateX(-50%) translateZ(-1px);
+    background-color: #fff;
+    left: 50%;
+    top: 0px;
+    z-index: -1;
+    box-shadow: -1px -1px 20px #aaa;
+}
+
+.tooltipinfo {
+    color: black;
+    box-shadow: 1px 1px 20px rgba(black, 0.3);
+}

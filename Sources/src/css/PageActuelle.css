@@ -1,0 +1,11 @@
+#pageactuelle{
+    width: 75%;
+    text-align: left;
+    align-content: start;
+    font-size: 30px;
+    margin: -7px 0px 0px 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.chevron{
+    font-size: 22.5px !important;   
+}

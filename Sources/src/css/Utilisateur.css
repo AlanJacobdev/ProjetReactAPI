@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+#nomprenom{
+    height: 85px;
+    line-height: 80px;
+    white-space: nowrap;
+    width : 10%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#icone {
+    width: 4%;
+    height: 85px;
+    white-space: nowrap;
+    text-align: center;
+    margin: 20px 0px -10px 0px;
+  }
+  
+.profil {
+    font-size: 40px; 
+}
+
+#nom{
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}

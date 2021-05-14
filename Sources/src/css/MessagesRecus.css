@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#messagesRecus {
+    position: sticky;
+    left: 30%;
+    top: 100px;
+    margin: 30px 0px 30px 0px;
+    width: 40%;
+    min-height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #e8e8e8;
+}
+
+#libelleMessagesRecus{
+    font-family: "Montserrat", sans-serif;
+    text-align:center;
+    font-size:25px;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+    display: inline-table;
+    width: 100%;
+    border-bottom: 2px solid rgba(218, 218, 218, 0.473);
+}
+
+.Message{
+    border-bottom: 1px solid rgba(218, 218, 218, 0.308);
+    border-top: 1px solid rgba(218, 218, 218, 0.308);
+    padding: 10px 10px 10px 10px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.TronquedMessage{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 10px 0px 10px 0px;
+}
+
+.Date {
+    margin : 5px 0px 5px 0px;
+
+}
+
+.Expediteur {
+    margin : 5px 0px 5px 0px;
+}
+.messageNonLu{
+    background-color: rgba(248, 2, 2, 0.062);
+}
+
+.messageLu{
+    background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+#confirmationEnvoi{
+    position: sticky;
+    left: 30%;
+    top: 100px;
+    margin: 30px 0px 30px 0px;
+    padding:100px 20px 0px 20px;
+    width: 40%;
+    min-height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #e8e8e8;
+    display: table;
+}
+
+.EnvoiCorrect {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color : green;
+    width: 100%;
+    height : 30px;
+    display:table;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#DivBoutonConfirmer{
+    display: table;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin : 25px 0px 0px 0px;
+}
+
+#BoutonConfirmer{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 38px;
+    line-height: 38px;
+    width: 40%;
+    border-radius: 19px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fbfbfb;
+    font-size : 16px;
+}
+

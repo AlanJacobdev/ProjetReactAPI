@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.centerLogin {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 250px;
+    margin-left: -200px;
+    margin-top: -125px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #e8e8e8;
+}
+
+.formulaire {
+    height: 100%;
+    width: 100%;
+    padding-top : 10%
+}
+
+  
+.identification {
+position: relative;
+}
+
+.identification input {
+width: 90%;
+padding: 10px 0;
+font-size: 16px;
+color: #000;
+margin: 0px 5% 30px 5%;
+border: none;
+border-bottom: 1px solid #000;
+outline: none;
+background: transparent;
+}
+.identification label {
+position: absolute;
+top:0;
+left: 0;
+padding: 10px 0;
+font-size: 16px;
+color: #000;
+pointer-events: none;
+transition: .5s;
+margin-left:5%;
+font-family: "Montserrat", sans-serif;
+}
+
+.identification input:focus ~ label,
+.identification input:valid ~ label {
+top: -20px;
+left: 0;
+color: #000;
+font-size: 12px;
+}
+
+
+.bottom {
+    margin-bottom:10px !important;
+}
+.submit {
+    display: block;
+    margin:auto;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 38px;
+    line-height: 38px;
+    width: 100px;
+    border-radius: 19px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fbfbfb;
+}
+.submit:hover {
+    background-color:#ebebeb;
+}
+#etat {
+    text-align : center;
+    height:30px;
+    color: red;
+    white-space: nowrap;
+    display: block;
+    margin: 0px 5px 0px 5px;
+    font-family: "Montserrat", sans-serif;
+}

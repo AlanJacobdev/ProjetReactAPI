@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#TabUtilisateurs{
+    font-family: "Montserrat", sans-serif;
+    text-align:center;
+    font-size:25px;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+    display: inline-table;
+    width: 33.3%;
+    border-bottom: 2px solid rgba(218, 218, 218, 0.473);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor:pointer;
+}
+
+#TabUtilisateurs:hover{
+    background-color: rgba(218, 218, 218, 0.200);
+}
+
+#TabEnseignants{
+    font-family: "Montserrat", sans-serif;
+    text-align:center;
+    font-size:25px;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+    display: inline-table;
+    width: 33.3%;
+    border-bottom: 2px solid rgba(218, 218, 218, 0.473);
+    cursor:pointer;
+}
+#TabEnseignants:hover{
+    background-color: rgba(218, 218, 218, 0.200);
+}
+
+#TabEnseignantsUser{
+    font-family: "Montserrat", sans-serif;
+    text-align:center;
+    font-size:25px;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+    display: inline-table;
+    width: 100%;
+    border-bottom: 2px solid rgba(218, 218, 218, 0.473);
+    cursor:pointer;
+}
+
+
+#TabAdmins{
+    font-family: "Montserrat", sans-serif;
+    text-align:center;
+    font-size:25px;
+    font-weight: 600;
+    padding: 20px 0px 20px 0px;
+    display: inline-table;
+    width: 33.4%;
+    border-bottom: 2px solid rgba(218, 218, 218, 0.473);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor:pointer;
+}
+#TabAdmins:hover{
+    background-color: rgba(218, 218, 218, 0.200);
+}
+
+.centerTableau {
+    position: relative;
+    left: 50%;
+    width: 1000px;
+    height: auto;
+    margin: 30px 0px 30px -500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #e8e8e8;
+}
+table {
+    font-family: "Montserrat", sans-serif;
+    width : 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+thead {
+    height: 60px;
+    background: #36304a;
+    color : white;
+}
+
+tr {
+    height: 50px;
+    cursor:pointer;
+}
+
+tbody tr:hover, tbody tr:nth-child(even):hover{
+    background-color: rgb(219, 216, 216);
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+    
+}
+
+.id{
+    width:5%;
+
+}
+
+.nom{
+    width:15%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 150px;
+}
+
+.prenom{
+    width:15%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 150px;
+}
+
+.login{
+    width:15%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 150px;
+}
+
+.password{
+    width:15%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 150px;
+}
+
+.etablissement{
+    width:7%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 70px;
+}
+
+.modifierUser{
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 38px;
+    line-height: 2px;
+    width: 90px;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffefdb;
+    border:none;
+    cursor:pointer;
+}
+
+.modifierUser:hover{
+    background-color: #ffe7cb;
+}
+.supprimerUser{
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 38px;
+    line-height: 2px;
+    width: 90px;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fbdede;
+    border:none;
+    cursor:pointer;
+}
+
+.supprimerUser:hover{
+    background-color: #fdd5d5;
+}
+
+.tdBouton{
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+
+.AjouterUserDiv {
+    width: 100%;
+    text-align: center;
+    margin : 20px 0px 20px 0px;
+    display: inline-block;
+}
+
+.AjoutUser{
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    width: 90px;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #d8f1c2;
+    border:none;
+    font-size: 16px;
+}
+
+.AjoutUser:hover {
+    background-color:#d2f0b7 ;
+}

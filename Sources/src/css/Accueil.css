@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.DivAccueil{
+    position: relative;
+    left: 1%;
+    top: 5%;
+    width: 98%;
+    min-height:45rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #e8e8e8;
+    display:flex;
+}
+
+.DivAccueilAdmin{
+    position: relative;
+    left: 1%;
+    top: 5%;
+    width: 95%;
+    min-height:45rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #e8e8e8;
+    text-align: center;
+    padding:25px 25px 25px 25px;
+}
+
+.TabModule{
+    flex:1;
+    margin: 15px;
+
+}
+
+.TabUp{
+    flex:1;
+    margin:15px; 
+}
+
+.DivChevron{
+    flex:0.1;
+}
+
+.chevronAccueil{
+    font-size:55px;
+    top: 50%;
+    margin-bottom: 55px;
+    font-size: 55px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.Intitule{
+    font-family: "Montserrat", sans-serif;
+    margin : 5px 5px 10px 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.DivBoutonTab{
+    margin: 20px;
+    display: flex;
+}
+
+.Creer{
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    width: 90px;
+    border-radius: 19px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #d8f1c2;
+    border:none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.Creer:hover{
+    background-color:#c3dbad ;
+}
+
+
+.Supprimer{
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    width: 110px;
+    border-radius: 19px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f5adad;
+    border:none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.Supprimer:hover{
+    background-color:#faa2a2 ;
+}
+
+.Modifier{
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    width: 100px;
+    border-radius: 19px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f1c797;
+    border:none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.Modifier:hover{
+    background-color:#f1c28d ;
+}
+
+Modifier:disabled{
+    background-color: red;
+}
+
+#erreur{
+    text-align : center;
+    height:30px;
+    width: 100%;
+    color: red;
+    white-space: nowrap;
+    display: block;
+    margin: 10px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tabEnseignant{
+    width: 160px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 160px;
+}
+
+.tabModule{
+    width: 205px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 205px;
+}
+
+.tabNiveaux{
+    width: 215px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 215px;
+}
+
+.tabDescription{
+    width: 230px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 230px;
+}
+
+.texte{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px
+}
+
+.texteWeight{
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
